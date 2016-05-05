@@ -1,0 +1,738 @@
+/*
+Theme Name: OneTone Child
+Theme URI: http://thestudio.uiowa.edu/andmix/onetone-theme.html
+Description: Child theme for the OneTone.
+Template: onetone
+Version: 1.1.9
+*/
+@import url("../onetone/style.css");
+
+@media screen and (max-width: 480px) {
+.home-navbar {
+	background: url(http://thestudio.uiowa.edu/andmix/wp-content/uploads/2016/04/MIX_Web_Hamburger.png) no-repeat;
+	position:relative;
+	height:100px;
+	width: 100px;
+}
+
+img {
+	height:auto;
+	width:auto;
+}
+.home-site-info{
+	float:left;
+}
+.entry-meta, .entry-header, .archive-header, .site-info, .home-footer{
+display:none;	
+}
+
+#home .home-container {
+z-index:1;
+height:450px;
+bottom:-125px;
+}
+
+#post-73 .site-main {
+margin:0px;
+background-image:url("http://thestudio.uiowa.edu/andmix/wp-content/uploads/2015/09/MIX_header_yellow.png");
+background-color: black;
+}
+
+#post-73 h4{
+display:inline;
+background-color:#f46178;	
+padding: 0px 0px;
+color:white;
+border:none;
+float:left;
+clear:left;
+}
+
+#post-73 p{
+display:inline;
+background-color:#f46178;	
+padding: 0px 0px;
+color:white;
+border:none;
+float:left;
+clear:left;
+}
+
+#post-73 a{
+margin-bottom:10px;		
+}
+
+.site-logo {
+	margin-left:10px;
+}
+
+
+.home-header{
+background: url("http://thestudio.uiowa.edu/andmix/wp-content/uploads/2015/09/MIX_header_yellow.png") no-repeat;
+background-size:100% 100%;
+}
+
+#examples .home-container h1, #tools .home-container h1{
+color:white;
+text-transform:uppercase;
+} 
+
+#home .home-container {
+	font-size:24px;
+	text-transform:none;
+
+}
+
+#examples .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+#resources .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+.portfolio-list ul{
+height:auto;
+width:auto;
+margin-bottom:10px;
+}
+
+.portfolio-list li {
+height:auto;
+width:auto;
+margin-bottom:10px;
+}
+
+
+#tools .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+
+.quad-box {
+
+}
+#secondary-resources-top{
+height:auto;
+width:auto;
+margin-bottom:10px;
+vertical-align:middle;
+
+}
+
+#top-left {
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+
+#top-right {
+width:auto;
+height:auto;
+margin-bottom:10px;
+padding:none;
+
+}
+#middle-resource{
+width:auto;
+height:120px;
+margin-bottom:10px;
+
+}
+
+#middle-resource-content{
+width:auto;
+height:auto;
+display:none;
+}
+
+#secondary-resources-bottom{
+width:auto;
+height:auto;
+}
+
+#bottom-left {
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+
+#bottom-center{
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+#bottom-right {
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+}
+
+@media screen and (min-width: 481px)
+and (max-width: 980px) {
+	
+	
+	.home-navbar {
+	background: url(http://thestudio.uiowa.edu/andmix/wp-content/uploads/2016/04/MIX_Web_Hamburger.png) no-repeat;
+	position:relative;
+	height:100px;
+	width: 100px;
+}
+
+.home-site-info{
+	float:left;
+}
+
+img {
+	height:auto;
+	width:auto;
+}
+
+.entry-meta, .entry-header, .site-info, .archive-header, .home-footer {
+display:none;	
+}
+
+
+#post-73 .site-main {
+margin:0px;
+background-image:url("http://thestudio.uiowa.edu/andmix/wp-content/uploads/2015/09/MIX_header_yellow.png");
+background-color: black;
+}
+
+#post-73 h4{
+display:inline;
+background-color:#f46178;	
+padding: 0px 0px;
+color:white;
+border:none;
+float:left;
+clear:left;
+}
+
+#post-73 p{
+display:inline;
+background-color:#f46178;	
+padding: 0px 0px;
+color:white;
+border:none;
+float:left;
+clear:left;
+}
+
+#post-73 a{
+margin-bottom:10px;		
+}
+
+.site-logo {
+	margin-left:10px;
+}
+
+.home-header{
+background: url("http://thestudio.uiowa.edu/andmix/wp-content/uploads/2015/09/MIX_header_yellow.png") no-repeat;
+background-size:100% 100%;
+}
+
+#examples .home-container h1, #tools .home-container h1{
+color:white;
+text-transform:uppercase;
+}
+
+#home .home-container {
+font-size:24px;
+text-transform:none;
+color:black;
+font-family:'Raleway';
+width:70%;
+height:400px;
+bottom:-75px;
+}
+
+#examples .home-container{
+z-index:0;
+height:auto;
+width:auto;
+margin-left:auto;
+margin-right:auto;
+}
+
+#resources .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+.portfolio-list ul{
+height:auto;
+width:auto;
+margin-bottom:10px;
+}
+
+.portfolio-list li {
+height:auto;
+width:auto;
+margin-bottom:10px;
+margin-left:25%;
+margin-right:25%;
+
+}
+
+
+#tools .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+
+.quad-box {
+
+}
+#secondary-resources-top{
+height:auto;
+width:auto;
+margin-bottom:10px;
+vertical-align:middle;
+
+}
+
+#top-left {
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+
+#top-right {
+width:auto;
+height:auto;
+margin-bottom:10px;
+padding:none;
+
+}
+#middle-resource{
+width:auto;
+height:270px;
+margin-bottom:20px;
+
+}
+
+#middle-resource-content{
+width:auto;
+height:auto;
+display:block;
+}
+
+#secondary-resources-bottom{
+width:auto;
+height:auto;
+}
+
+#bottom-left {
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+
+#bottom-center{
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+#bottom-right {
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 981px) {
+	
+	
+	.home-navbar {
+	background: url(http://thestudio.uiowa.edu/andmix/wp-content/uploads/2016/04/MIX_Web_Hamburger.png) no-repeat;
+	position:relative;
+	height:100px;
+	width: 100px;
+}
+
+.home-site-info{
+	float:left;
+}
+
+
+.entry-meta, .entry-header, .site-info, .archive-header, .home-footer{
+display:none;	
+}
+
+#post-73 .main-content, #post-73 .entry-main, #post-73 {
+background-color:white;
+}
+#post-73 .site-main {
+margin:0px;
+background-image:url("http://thestudio.uiowa.edu/andmix/wp-content/uploads/2015/09/MIX_header_yellow.png");
+background-color: black;
+}
+
+#post-73 h4{
+display:inline;
+background-color:black;	
+padding: 0px 0px;
+color:white;
+border:none;
+float:left;
+clear:left;
+}
+
+#post-73 p{
+display:inline;
+background-color:black;	
+padding: 0px 0px;
+color:white;
+border:none;
+float:left;
+clear:left;
+}
+
+#post-73 a{
+margin-bottom:10px;		
+}
+
+.site-logo {
+	margin-left:10px;
+}
+
+.home-container{
+	padding:50px 1%;
+}
+
+.home-logo{
+margin-top:5px;
+margin-left:0px;
+}
+
+.home-header{
+background: url("http://thestudio.uiowa.edu/andmix/wp-content/uploads/2015/09/MIX_header_yellow.png") no-repeat;
+background-size:100% 100%;
+}
+
+#examples .home-container h1, #tools .home-container h1{
+color:white;
+text-transform:uppercase;
+}
+
+#resources .home-container h1{
+color:white;
+text-transform:uppercase;
+}
+
+#home .home-container{
+font-size:36px;
+text-transform:none;
+color:black;
+font-family:'Raleway';
+width:70%;
+}
+
+
+
+#examples .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+#resources .home-container{
+z-index:0;
+height:1000px;
+width:auto;
+}
+
+.portfolio-list ul{
+height:300px;
+width:1200px;
+margin-bottom:40px;
+}
+
+.portfolio-list li {
+width:360px;
+height:340px;
+float: left;
+list-style-type: none;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 0px;
+}
+
+#tools .home-container{
+z-index:0;
+height:1500px;
+width:1600px;
+}
+
+.quad-box {
+padding:10px;
+margin-left:20px;
+margin-right:20px;
+}
+
+#secondary-resources-top{
+width:1200px;
+height:290px;
+}
+
+#top-left {
+float:left;
+width:560px;
+height:300px;
+}
+
+#top-right {
+float:left;
+width:560px;
+height:300px;
+}
+#middle-resource{
+width:1140px;
+margin-top:60px;
+margin-bottom:20px;
+height:380px;
+
+}
+
+#middle-resource-content{
+width:1160px;
+height:auto;
+
+}
+
+#secondary-resources-bottom{
+width:1200px;
+width:1200px;
+height:350px;
+}
+
+#bottom-left {
+float:left;
+width:360px;
+height:300px;
+}
+
+#bottom-center{
+float:left;
+width:360px;
+height:300px;
+}
+#bottom-right {
+float:left;
+width:360px;
+height:300px;
+}
+#footer-logos img{
+	float:left;
+	clear:both;
+}
+
+}
+
+
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) 
+{
+
+.home-navbar {
+	background: url(http://thestudio.uiowa.edu/andmix/wp-content/uploads/2016/04/MIX_Web_Hamburger.png) no-repeat;
+	position:relative;
+	height:100px;
+	width: 100px;
+}
+img {
+	height:auto;
+	width:auto;
+}
+
+
+.site-info{
+display:none;
+}
+
+
+.entry-meta, .entry-header, .archive-header, .home-footer{
+display:none;	
+}
+
+#post-73 .site-main {
+margin:0px;
+background-image:url("http://thestudio.uiowa.edu/andmix/wp-content/uploads/2015/09/MIX_header_yellow.png");
+background-color: black;
+}
+
+#post-73 h4{
+display:inline;
+background-color:#f46178;	
+padding: 0px 0px;
+color:white;
+border:none;
+float:left;
+clear:left;
+}
+
+#post-73 p{
+display:inline;
+background-color:#f46178;	
+padding: 0px 0px;
+color:white;
+border:none;
+float:left;
+clear:left;
+}
+
+#post-73 a{
+margin-bottom:10px;		
+}
+
+.site-logo {
+	margin-left:10px;
+}
+
+.home-container{
+	padding:50px 1%;
+}
+
+.home-logo{
+margin-top:5px;
+margin-left:0px;
+}
+.home-header{
+background: url("http://thestudio.uiowa.edu/andmix/wp-content/uploads/2015/09/MIX_header_yellow.png") no-repeat;
+background-size:100% 100%;
+}
+
+
+#examples .home-container h1, #tools .home-container h1{
+color:white;
+text-transform:uppercase;
+}
+
+#resources .home-container h1{
+color:white;
+text-transform:uppercase;
+
+}
+
+#home .home-container{
+font-size:36px;
+text-transform:none;
+color:black;
+font-family:'Raleway';
+}
+
+#examples .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+#resources .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+.portfolio-list ul{
+height:auto;
+width:720px;
+margin-bottom:40px;
+}
+
+.portfolio-list li {
+width:360px;
+height:340px;
+float: left;
+list-style-type: none;
+margin-left: 25%;
+margin-right: 25%;
+margin-bottom: 0px;
+}
+
+
+#tools .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+
+.quad-box {
+padding:10px;
+margin-left:20px;
+margin-right:20px;
+}
+#secondary-resources-top{
+width:auto;
+height:auto;
+}
+
+#top-left {
+float:left;
+width:100%;
+height:100%;
+}
+
+#top-right {
+float:left;
+width:100%;
+height:100%;
+}
+
+#middle-resource{
+width:100%;
+height:100%;
+overflow:auto; 
+}
+
+#middle-resource-content{
+width:100%;
+height:100%;
+}
+
+#secondary-resources-bottom{
+width:auto;
+height:auto;
+}
+
+#bottom-left {
+float:left;
+width:100%;
+height:100%;
+}
+
+#bottom-center{
+float:left;
+width:100%;
+height:100%;
+}
+#bottom-right {
+float:left;
+width:100%;
+height:100%;
+}
+
+#footer-logos img{
+	float:left;
+	clear:both;
+}
+}
