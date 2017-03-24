@@ -1,0 +1,1059 @@
+/*
+ Theme Name:   andmix
+ Description:  Responsive Child Theme for andmix
+ Author:       Ethan DeGross
+ Template:     responsive
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ Text Domain:  andmix
+*/
+
+.page-id-8{
+  margin: 0px;
+  padding: 0px;
+}
+
+.spacing{
+  padding-bottom: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+/*sam*/
+.tooltip {
+    position: relative;
+    display: block;
+}
+/*sam*/
+.tooltip .tooltiptext {
+    visibility: hidden;
+    border-width: 1px;
+    border-color: black;
+    border-style: double;
+    width: 400px;
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 108%;
+    left: 13%;
+    margin-left: 30px;
+}
+/*sam*/
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+/*sam*/
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/*sam*/
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/*sam*/
+.listag {
+ display: block;
+ margin: auto;
+ width: 100%;
+ height: auto;
+}
+
+/*Sam*/
+.iframe {
+  width: 250px!important;
+  height: 150px!important;
+}
+
+/*sam*/
+.gallery-item .fluid-width-video-wrapper{
+  padding-bottom: 55px;
+}
+
+/*sam*/
+.answer {
+    display:none;
+}
+
+@font-face { font-family: Raleway; src: url('./Fonts/Raleway-Regular.ttf'); }
+/*sam*/
+h4.writtencontent {
+padding:4px
+}
+/*sam*/
+.writtencontent {
+ margin:7px;
+ background-color: black;
+ padding: 0px;
+ color: white;
+}
+/*sam*/
+.artist {
+ margin:7px;
+ background-color: black;
+ padding: 5px;
+ color: #ffee00;
+}
+/*sam*/
+#title{
+  /*text-decoration: underline;*/
+  display: inline;
+  padding-bottom: 0px;
+  font-size: 40px;
+  padding: 1px;
+  line-height: 3;
+  font-family: 'Raleway',sans-serif;
+  color:black;
+
+}
+/*sam*/
+button.button {
+   border: 2px solid #f46178;/*Ethan*/
+   background: #f46178;
+   padding: 7.5px 15px;
+   border-radius: 30px;
+   color: white;
+   font-size: 8px;
+   vertical-align: middle;
+   }
+button.button:hover {
+   border: 2px solid #000000;
+   text-shadow: #000000 0 1px 0;
+   background: yellow;
+   color: #20FF7F;
+   }
+button.button:active {
+   text-shadow: #000000 0 1px 0;
+   border: 2px solid #ffee00;
+   background: #000000;
+   color: #FF2081;
+   }
+/*Sam*/
+#gallery-sidebar-image{
+  margin: auto;
+  padding-bottom: 30px;
+  width: 100%;
+}
+#gallery-sidebar{
+  /*sam*/
+/*  margin-left: -8px;*/
+  margin-top: -2px;
+  position: fixed!important;
+  z-index: 1;
+  height: 100%;
+  width:10%;
+  background: url(https://dsps.lib.uiowa.edu/andmix/wp-content/uploads/sites/17/2016/06/MIX_header_yellow-1024x66.png) left top;
+}
+
+.hide-show{
+  width:260px;
+  padding: 10px;
+  background-color: white;
+  position: relative;
+  border-style: solid;
+  border-color: black;
+  border-width:thick;
+  border-radius:10px;
+  margin-left: -40%;
+}
+
+/*sam 11/14*/
+img.alignnone{
+  margin: 0!important;
+}
+
+#container,
+#content-full,
+#wrapper,
+.section-inner .alignnone,
+.section-inner a,
+.section-inner p,
+.skip-container,
+header.section,
+html {
+  margin-top    : 0px!important;
+  margin-bottom : 0px;
+  padding       : 0px!important;
+  overflow-x    : hidden;
+}
+
+
+#header, .skip-container, .entry-title, .breadcrumb-list, #footer{
+display:none;
+}
+#gallery-home, #gallery-home2{
+  clear:both;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+/*  margin-top: 200px; change by Sam*/
+}
+
+.gallery-item{
+  padding-left: 10px;
+  padding-right: 10px;
+  height:auto;
+/*  max-height: 500px;*/ /*sam*/
+  min-height: 500px;
+  width: 250px!important; /*sam*/
+  float:left;
+/*  margin-top: 100px; change by sam*/
+/*    max-width: 250px; sam*/
+    text-align: center;
+    margin:30px;
+}
+
+.gallery img{
+  border: none;
+}
+.gallery .gallery-item{
+  /*margin-top: 100px; sam*/
+}
+
+a {
+  color: #f46178;
+}
+
+header #menu-main > li > a span, header .top-nav > ul > li > a span {
+    color: #0a0a0a;
+}
+
+.section-title h1{
+color: white;
+text-transform: uppercase;
+font-family: 'Raleway',sans-serif;
+font-size: 60px;
+font-style: normal;
+font-weight: 300;
+text-align: center;
+line-height: 82px;
+margin-bottom: 40px;
+}
+ul{
+list-style: none;
+margin:0;
+padding: 0 0;
+}
+.home-header {
+background: #000;
+min-height: 80px;
+width: 100%;
+top: 0;
+z-index: 100;
+padding: 0;
+margin: 0;
+}
+.home-navigation {
+float: right;
+height: 100%;
+margin-left: 40px;
+margin-right: 20px;
+}
+.home-navigation ul{
+display: inline-block;
+}
+.home-navigation li {
+float: left;
+}
+
+.home-navigation li a {
+/* color: #ddd; */
+font-size: 16px;
+text-transform: uppercase;
+display: block;
+padding: 0 15px;
+line-height: 80px;
+}
+#examples {
+padding: 50px 0;
+background-color: #3fd5ae;
+}
+#resources {
+padding: 50px 0;
+background-color: black;
+}
+#tools {
+padding: 50px 0;
+background-color: #f46178;
+}
+#examples-inner, #resources-inner {
+margin-left: auto;
+margin-right: auto;
+}
+#examples-inner, #resources-inner, .section-title{
+  margin-bottom: 40px;
+}
+#examples ul, #resources ul {
+overflow: hidden;
+}
+#secondary-resources-bottom img{
+  width: auto;
+  height: auto;
+}
+
+/*sam 11/14*/
+#secondary-resources-top{
+  text-align: center;
+}
+#top-left, #top-right{
+  display: inline-block;
+  float: none!important;
+}
+#secondary-resources-bottom{
+  text-align: center;
+}
+#bottom-left, #bottom-right, #bottom-center{
+  display: inline-block;
+  float: none!important;
+}
+
+#examples li, #resources li, #secondary-resources-top, #secondary-resources-bottom, #middle-resource{
+  display:inline-block;
+  margin:10px 10px;
+}
+/*sam*/
+#footer-logos img{
+  padding-left: 5%;
+  width:auto;
+}
+#footer-logos{
+  padding: 75px 50px;
+  background-color: #f46178;
+  width: 100%;
+  z-index: 0;
+  }
+.page-id-8 #footer-logos{
+  margin-left: 10%!important;
+
+}
+#container, #wrapper, #content-full{
+max-width:none;
+margin:0px 0px;
+padding: 0px 0px;
+}
+.home-container{
+font-size: 36px;
+text-align: center;
+text-transform: none;
+color: black;
+font-family: 'Raleway';
+line-height: 1.6;
+
+}
+
+
+@media screen and (max-width: 480px) {
+/*sam*/
+#secondary-resources-bottom, #secondary-resources-bottom img{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#examples-inner, #examples-inner img{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#resources-inner, #resources-inner img{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.section-title h1{
+  font-size: 45px;
+}
+#title{
+  font-size: 20px;
+  line-height: 2;
+}
+#gallery-sidebar{
+  display: none;
+}
+ #footer-logos{
+   width: auto;
+   margin:0;
+ }
+.page-id-8 #footer-logos{
+  margin: 0!important;
+}
+
+
+  .header_menu {
+  display:none;
+  }
+  .js .main-nav .menu {
+    display:none;
+
+  }
+  .js .main-nav .menu li a {
+    text-align : center;
+  }
+  .main-nav {
+    display:none;
+
+  }
+  .main-nav #responsive_current_menu_item {
+    display : none !important;
+  }
+  .menu-main li {
+    display:none;
+
+  }
+  .menu-main {
+      display : none;
+    }
+  .js .main-nav a#responsive_menu_button.responsive-toggle-open {
+    display:none;
+
+  }
+  .js .main-nav {
+    display:none;
+
+      }
+      .js .main-nav a#responsive_menu_button {
+        display:none;
+     }
+
+  .gallery-item{
+    width:300px;
+  }
+
+.home-navbar {
+	background: url("https://dsps.lib.uiowa.edu/andmix/wp-content/uploads/sites/17/2016/06/MIX_Web_Hamburger.png") no-repeat;
+	position:relative;
+	height:100px;
+	width: 100px;
+}
+
+.page-id-5 img {
+	height:auto;
+}
+.home-site-info{
+	float:left;
+}
+.entry-meta, .entry-header, .archive-header, .site-info, .home-footer{
+display:none;
+}
+
+#home .home-container {
+z-index:1;
+height:450px;
+bottom:-125px;
+}
+
+#post-73 .site-main {
+margin:0px;
+background-image:url("https://dsps.lib.uiowa.edu/andmix/wp-content/uploads/sites/17/2016/06/MIX_header_yellow-1024x66.png");
+background-color: black;
+}
+
+#post-73 h4{
+display:inline;
+background-color:#f46178;
+padding: 0px 0px;
+color:white;
+border:none;
+float:left;
+clear:left;
+}
+
+#post-73 p{
+display:inline;
+background-color:#f46178;
+padding: 0px 0px;
+color:white;
+border:none;
+float:left;
+clear:left;
+}
+
+#post-73 a{
+margin-bottom:10px;
+}
+
+.site-logo {
+	margin-left:10px;
+}
+
+
+.home-header{
+background: url("https://dsps.lib.uiowa.edu/andmix/wp-content/uploads/sites/17/2016/06/MIX_header_yellow-1024x66.png") no-repeat;
+background-size:100% 100%;
+}
+
+#examples .home-container h1, #tools .home-container h1{
+color:white;
+text-transform:uppercase;
+}
+
+#home .home-container {
+	font-size:24px;
+	text-transform:none;
+
+}
+
+#examples .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+#resources .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+.portfolio-list ul{
+height:auto;
+width:auto;
+margin-bottom:10px;
+}
+
+.portfolio-list li {
+height:auto;
+width:auto;
+margin-bottom:10px;
+}
+
+
+#tools .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+#secondary-resources-top{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+height:auto;
+margin-bottom:10px;
+vertical-align:middle;
+}
+
+#top-left {
+/*width:auto;
+sam 11/14*/
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+height:auto;
+margin-bottom:10px;
+}
+
+#top-right {
+/*width:auto;
+sam 11/14*/
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+height:auto;
+margin-bottom:10px;
+padding:none;
+
+}
+#middle-resource{
+  /*sam 11/14 added three lines for firefox/IE browse responsiveness*/
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+/*width:auto;
+sam 11/14
+height:120px;*/
+margin-bottom:10px;/*sam 11/14*/
+padding-bottom: 2%;
+}
+
+#middle-resource-content{
+width:auto;
+height:auto;
+display:none;
+}
+
+#secondary-resources-bottom{
+width:auto;
+height:auto;
+}
+
+#bottom-left {
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+
+#bottom-center{
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+#bottom-right {
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+}
+
+@media screen and (min-width: 481px)
+and (max-width: 980px) {
+  /*sam*/
+  .hide-show{
+    margin-left: -35%;
+  }
+  #gallery-home, #gallery-home2{
+    margin-left:22%;
+  }
+  #title{
+    font-size: 23px;
+  }
+  #gallery-sidebar{
+    width:20%;
+  }
+  #footer-logos img{
+  width: 35%;
+  }
+  .listag{
+    width:100%;
+  }
+  .spacing {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .header_menu {
+  display:none;
+  }
+  .js .main-nav .menu {
+    display:none;
+
+  }
+  .js .main-nav .menu li a {
+    text-align : center;
+  }
+  .main-nav {
+    display:none;
+
+  }
+  .main-nav #responsive_current_menu_item {
+    display : none !important;
+  }
+  .menu-main li {
+    display:none;
+
+  }
+  .menu-main {
+      display : none;
+    }
+  .js .main-nav a#responsive_menu_button.responsive-toggle-open {
+    display:none;
+
+  }
+  .js .main-nav {
+    display:none;
+
+      }
+      .js .main-nav a#responsive_menu_button {
+        display:none;
+     }
+
+
+
+
+	.home-navbar {
+	background: url("https://dsps.lib.uiowa.edu/andmix/wp-content/uploads/sites/17/2016/06/MIX_Web_Hamburger.png") no-repeat;
+	position:relative;
+	height:100px;
+	width: 100px;
+}
+
+.home-site-info{
+	float:left;
+}
+
+.page-id-5 img {
+	height:auto;
+}
+
+.entry-meta, .entry-header, .site-info, .archive-header, .home-footer {
+display:none;
+}
+
+
+#post-73 .site-main {
+margin:0px;
+background-image:url("https://dsps.lib.uiowa.edu/andmix/wp-content/uploads/sites/17/2016/06/MIX_header_yellow-1024x66.png");
+background-color: black;
+}
+
+#post-73 h4{
+display:inline;
+background-color:#f46178;
+padding: 0px 0px;
+color:white;
+border:none;
+float:left;
+clear:left;
+}
+
+#post-73 p{
+display:inline;
+background-color:#f46178;
+padding: 0px 0px;
+color:white;
+border:none;
+float:left;
+clear:left;
+}
+
+#post-73 a{
+margin-bottom:10px;
+}
+
+.site-logo {
+	margin-left:10px;
+}
+
+.home-header{
+background: url("https://dsps.lib.uiowa.edu/andmix/wp-content/uploads/sites/17/2016/06/MIX_header_yellow-1024x66.png") no-repeat;
+background-size:100% 100%;
+}
+
+#examples .home-container h1, #tools .home-container h1{
+color:white;
+text-transform:uppercase;
+}
+
+#home .home-container {
+font-size:24px;
+text-transform:none;
+color:black;
+font-family:'Raleway';
+width:70%;
+height:500px;
+bottom:-75px;
+}
+
+#examples .home-container{
+z-index:0;
+height:auto;
+width:auto;
+margin-left:auto;
+margin-right:auto;
+}
+
+#resources .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+.portfolio-list ul{
+height:auto;
+width:auto;
+margin-bottom:10px;
+}
+
+.portfolio-list li {
+height:auto;
+width:auto;
+margin-bottom:10px;
+margin-left:25%;
+margin-right:25%;
+
+}
+
+
+#tools .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+
+.quad-box {
+
+}
+#secondary-resources-top{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+height:auto;
+/*width:auto;*/
+margin-bottom:10px;
+vertical-align:middle;
+
+}
+
+#top-left {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+/*width:auto;*/
+height:auto;
+margin-bottom:10px;
+}
+
+#top-right {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+/*width:auto;*/
+height:auto;
+margin-bottom:10px;
+padding:none;
+
+}
+#middle-resource{
+  /*sam 11/14 added three lines for firefox/IE browse responsiveness*/
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+/*width:auto;
+ sam 11/14
+height:270px;
+margin-top: 60px;*/
+margin-bottom:20px;
+
+}
+
+#middle-resource-content{
+width:auto;
+height:auto;
+display:block;
+}
+
+#secondary-resources-bottom{
+width:auto;
+height:auto;
+}
+
+#bottom-left {
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+
+#bottom-center{
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+#bottom-right {
+width:auto;
+height:auto;
+margin-bottom:10px;
+}
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 981px) {
+
+
+	.home-navbar {
+	background: url("https://dsps.lib.uiowa.edu/andmix/wp-content/uploads/sites/17/2016/06/MIX_Web_Hamburger.png") no-repeat;
+	position:relative;
+	height:100px;
+	width: 100px;
+}
+
+.home-site-info{
+	float:left;
+}
+
+
+.entry-meta, .entry-header, .site-info, .archive-header, .home-footer{
+display:none;
+}
+
+#post-73 .main-content, #post-73 .entry-main, #post-73 {
+background-color:white;
+}
+#post-73 .site-main {
+margin:0px;
+background-image:url("https://dsps.lib.uiowa.edu/andmix/wp-content/uploads/sites/17/2016/06/MIX_header_yellow-1024x66.png");
+background-color: black;
+}
+
+#post-73 h4{
+display:inline;
+background-color:black;
+padding: 0px 0px;
+color:white;
+border:none;
+float:left;
+clear:left;
+}
+
+#post-73 p{
+display:inline;
+background-color:black;
+padding: 0px 0px;
+color:white;
+border:none;
+float:left;
+clear:left;
+}
+
+#post-73 a{
+margin-bottom:10px;
+}
+
+.site-logo {
+	margin-left:10px;
+}
+
+.home-container{
+	padding:50px 1%;
+}
+
+.home-logo{
+margin-top:5px;
+margin-left:0px;
+float:left;
+}
+
+.home-header{
+background: url("https://dsps.lib.uiowa.edu/andmix/wp-content/uploads/sites/17/2016/06/MIX_header_yellow-1024x66.png") no-repeat;
+background-size:100% 100%;
+height:100%;
+}
+
+#examples .home-container h1, #tools .home-container h1{
+color:white;
+text-transform:uppercase;
+}
+
+#resources .home-container h1{
+color:white;
+text-transform:uppercase;
+}
+
+#home .home-container{
+font-size:36px;
+text-transform:none;
+color:black;
+font-family:'Raleway';
+width:70%;
+}
+
+
+
+#examples .home-container{
+z-index:0;
+height:auto;
+width:auto;
+}
+
+#resources .home-container{
+z-index:0;
+height:1000px;
+width:auto;
+}
+
+.portfolio-list ul{
+height:300px;
+width:1200px;
+margin-bottom:40px;
+}
+
+.portfolio-list li {
+width:360px;
+height:340px;
+float: left;
+list-style-type: none;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 0px;
+}
+
+#tools .home-container{
+z-index:0;
+height:1500px;
+width:1600px;
+}
+
+.quad-box {
+padding:10px;
+margin-left:20px;
+margin-right:20px;
+}
+
+#secondary-resources-top{
+height:18%;
+}
+
+#top-left {
+float:left;
+width:560px;
+height:300px;
+}
+
+#top-right {
+float:left;
+width:560px;
+height:300px;
+}
+/*sam 11/14*/
+#middle-resource, #middle-resource img{
+  /*sam 11/14 added three lines for firefox/IE browse responsiveness*/
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+/*width:1140px;
+margin-top:60px;*/
+margin-bottom:20px;
+/*sam 11/14*/
+/*height:380px;*/
+/*padding-top: 27%;*/
+}
+
+#middle-resource-content{
+width:1160px;
+height:auto;
+
+}
+
+#secondary-resources-bottom{
+/*height:350px; sam*/
+}
+
+#bottom-left {
+float:left;
+width:360px;
+height:300px;
+}
+
+#bottom-center{
+float:left;
+width:360px;
+height:300px;
+}
+#bottom-right {
+float:left;
+width:360px;
+height:300px;
+}
+#footer-logos img{
+	float:left;
+	clear:both;
+}
+/*sam*/
+#hide{
+  display: none;
+}
